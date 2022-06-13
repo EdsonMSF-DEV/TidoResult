@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<html lang="pt-br">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Inserção do Bootstrap -->
 	<!-- CSS only -->
@@ -11,72 +12,39 @@
 	<!-- Ícones do BootStrap -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
 	<!-- CSS Local -->
-	<link rel="stylesheet" href="css/styles.css">
+	<link href="css/styles.css" rel="stylesheet" >
 	<title>Projeto Final Tido :: Temporário</title>
 </head>
 <body>
-	<!-- Navbar -->
-	<nav class="barra_menu">
-		<div class="logo">
-			<a href="#">Empresa</a>
-		</div>
-		<div class="lista-menu">
-			<ul>
+<! -- Barra de Menu -->
 
-       		<li>Home</li>
-       		<li>Sobre a Empresa</li>
-       		<li>Serviços</li>
-       		<li>Portfólio</li>
-       		<li>Contato</li>
-   		</ul>
-		</div>
-		<div class="Login">
-			<i class="bi bi-person-circle" data-bs-toggle="modal" data-bs-target="#myModal">
-   				<div class="container mt-3">
-   					
-   				</div>
-				<!-- The Modal -->
-				<div class="modal" id="myModal">
-  					<div class="modal-dialog">
-    				<div class="modal-content">
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+	<div class="container">
+   <a class="navbar-brand" href="#">
+    <img src="Images/logo-barra-menu.png" width="40" height="60" alt="">
+  	</a>
+  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-      				<!-- Modal Header -->
-      				<div class="modal-header">
-        				<h4 class="modal-title">Login</h4>
-        				<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-        			</div>
-
-     			 <!-- Modal body -->
-      			<div class="modal-body">
-         			<form action="/action_page.php" class="was-validated">
-  				<div class="mb-3 mt-3">
-    			<label for="uname" class="form-label">Nome de Usuário:</label>
-    				<input type="text" class="form-control" id="uname" placeholder="Insira o nome de usuário" name="uname" required>
-    			<div class="valid-feedback">Valid.</div>
-    			<div class="invalid-feedback">Insira o nome de usuário corretamente.</div>
-  				</div>
-  				<div class="mb-3">
-    				<label for="pwd" class="form-label">Senha:</label>
-    				<input type="password" class="form-control" id="pwd" placeholder="Insira a Senha" name="pswd" required>
-   					 <div class="valid-feedback">Valid.</div>
-    				<div class="invalid-feedback">Insira a senha.</div>
-  				</div>
-  				<button type="submit" class="btn btn-primary">Logar</button>
-			</form>
-
-
-   			</i>
-		</div>
-    
-
-    
-   
-</nav> 
-<img src="images/ante-menu.jpg"></a>
-
-<body>
-  
-</body>
-
-</body>
-</html>
+  <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Sobre a Empresa</a>
+      </li>
+      <li class="nav-item">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Serviços</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Portfólio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contato</a>
+    </ul>
+  </div>
+  </div>
+</nav>
